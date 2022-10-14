@@ -26,7 +26,7 @@ public class ThreeParallelArrays {
 			String zip = JOptionPane.showInputDialog(null,"Enter the zip code for "+capital);
 			Array.set(capitals, index, capital+" "+zip);
 		}
-		else {System.out.print("That's not a valid state. Try again\n");;}
+		else {System.out.print("That's not a valid state. Try again\n");}
 		
 		String exit = JOptionPane.showInputDialog(null, "Would you like to exit? (y or n)");
 		if(exit.equals("y")) {break;}
